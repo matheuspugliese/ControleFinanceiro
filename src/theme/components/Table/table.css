@@ -1,0 +1,14 @@
+.container {
+  height: 481px;
+  margin-bottom: -20px;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+}
+
+.select {
+  outline: none;
+  width: 100px;
+}

@@ -1,0 +1,40 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-top: -70px;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 150px;
+  height: 30px;
+  background-color: lightgray;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  margin-top: -70px;
+}
+
+.button:hover {
+  background-color: #c3c3c3;
+}
+
+.title {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+}
+
+.title > p {
+  font-size: 18px;
+  position: sticky;
+  font-weight: bold;
+}
